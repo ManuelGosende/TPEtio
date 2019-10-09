@@ -1,5 +1,39 @@
 @media only screen and (max-width: 800px){
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .logo {
+        position: sticky;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 1%;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .botonera {
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: rgb(255, 255, 255);
+        border-bottom: #BF3958 solid 3px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1%;
+        margin-block-end: 0%;
+    }
+    .boton {
+        width: 32%;
+        font-family:'Roboto';
+        font-size: 90%;
+        text-align: center;
+    }
+    .boton a {
+        text-decoration: none;
+        color: black;
+    }
+    header{
+    align-content: flex-start
+    }
 }
