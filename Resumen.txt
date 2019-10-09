@@ -1,3 +1,4 @@
 1) Inizialización de archivos.
-2) Primera modificacion de arcivos.
+2) Primera modificacion de archivos.
 3) Creamos una nueva rama.
+4) Complementando los archivos..

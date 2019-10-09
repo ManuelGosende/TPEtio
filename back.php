@@ -15,5 +15,12 @@ class inmobiliarias{
 
         return $query->fetchAll(PDO::FETCH_OBJ);
     }
+    function getTasks() {
+        $db = connect();
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_OBJ);
+    }
+
 }
 
