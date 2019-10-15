@@ -1,5 +1,104 @@
 @media only screen and (max-width: 800px){
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .logo {
+        position: sticky;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 1%;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .botonera {
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: rgb(255, 255, 255);
+        border-bottom: #BF3958 solid 3px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1%;
+        margin-block-end: 0%;
+    }
+    .boton {
+        width: 32%;
+        font-family:'Roboto';
+        font-size: 90%;
+        text-align: center;
+    }
+    .boton a {
+        text-decoration: none;
+        color: black;
+    }
+    header{
+    align-content: flex-start
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        background-image: url(casa.jpg);
+        background-size: 100%;
+        justify-content: baseline;
+        width:100%;
+    }
+    h1{
+        padding: 2%;
+    }
+    .textobalcarce{
+        font-family: 'Ubuntu';
+        font-size: 100%;
+        color: white;
+        text-align: center;
+        background-color: black;
+        opacity: 0.5;
+    }
+    .barradedato {
+        display: flex;
+        justify-items: flex-start;
+        font-family: 'Ubuntu';
+        font-size: 40%;
+        color: white;
+        background-color: #ED5C72;
+        width: 100%;
+    }
+    
+    #tabla {
+    background-color: black;
+    width: 100%;
+    padding: 5%;
+    }
+
+    #tabla tr {
+    background-color: #ED5C72;
+    font-family: 'Ubuntu';
+    font-style: bold;
+    color: white;
+    font-size: 50%;
+    text-align: center;
+    }
+    .inputs button{
+        width: 34%;
+        color: black;
+        display: flex;
+    }    
+    footer{
+        background-color: #EDEDED;
+        width: 100%;
+        border-bottom: #BF3958 solid 5px;
+        display: flex;
+        flex-direction: column;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .pie{
+        flex-direction: column;
+        list-style: none;
+        list-style-position: inside;
+        padding-left: 0%;
+    }
+    .facebook{
+        width: 8%
+    }
 }

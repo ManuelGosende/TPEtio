@@ -1,2 +1,8 @@
 1) Inizialización de archivos.
+<<<<<<< HEAD
 2) Primera modificacion de archivos.
+=======
+2) Primera modificacion de archivos.
+3) Creamos una nueva rama.
+4) Complementando los archivos..
+>>>>>>> 2c12c16ebd336ea49b04055628eae7293b8d0e4d
